@@ -13,3 +13,7 @@
 
 <p align="middle">        
 <a href="https://telegram.dog/KUSHALHK"><img src="https://img.shields.io/badge/Tᴇʟᴇɢʀᴀᴍ-purple.svg?logo=telegram"></a>
+
+<p align="middle">        
+<a href="https://instagram.com/hari_hk_kushal?igshid=NTc4MTIwNjQ2YQ=="></a>
+ <img src="https://img.shields.io/badge/INSTAGRAM-pink.svg?logo=Instagram"></a>
