@@ -17,6 +17,8 @@
 
 <b><a href='https://t.me/anonymous7370'>N33VARPV2 👨‍💻</a>.</b>
 
+<b><a href='https://github.com/Mujahith123'>MUJAHITH 👨‍💻</a>.</b>
+
 <b><u>
 we are nothing without your support please support us to bring more features in bot
 
