@@ -1640,7 +1640,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ʀᴜʟᴇꜱ •', callback_data='rule'), 
             InlineKeyboardButton('• ꜱᴇᴛᴛɪɴɢꜱ •', callback_data='settings')
         ], [
-        InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton('♻️ ꜱᴛɪᴄᴋᴇʀ ♻️', callback_data='sticker'), 
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1689,6 +1690,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "sticker":
+            buttons = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
+                  ]]
+            await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto(random.choice(PICS))
+            )
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=(script.STICKER_TXT),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )  
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='filters'),
