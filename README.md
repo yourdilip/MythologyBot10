@@ -19,6 +19,10 @@
 
 <b><a href='https://github.com/Mujahith123'>MUJAHITH 👨‍💻</a>.</b>
 
+<b><a href='https://github.com/Joelkb'>JOEL 👨‍💻</a>.</b>
+
+<b><a href='https://github.com/TeamHMT'>TEAMHMT 👨‍💻</a>.</b>
+
 <b><u>
 we are nothing without your support please support us to bring more features in bot
 
