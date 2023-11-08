@@ -13,7 +13,7 @@
 
 <b><a href='https://t.me/TG_Bots_Supporter'>KISHORE 👨‍💻</a>.</b>
 
-<b><a href='https://t.me/parshucr'>Parshuram 👨‍💻</a>.</b>
+<b><a href='https://t.me/parshucr'>parshucr 👨‍💻</a>.</b>
 
 <b><a href='https://t.me/anonymous7370'>N33VARPV2 👨‍💻</a>.</b>
 
