@@ -1668,7 +1668,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "plan1":
         buttons = [[
-            InlineKeyboardButton('CHECK PLAN', callback_data='check')
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1692,7 +1692,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('CHECK PLAN', callback_data='check')
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1716,7 +1716,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('CHECK PLAN', callback_data='check')
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
