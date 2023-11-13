@@ -1635,6 +1635,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.id, 
             InputMediaPhoto("https://graph.org/file/123d3d5d9933784495f52.jpg")
         ) 
+        await query.message.edit_text(
+            text=script.KUSHAL_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        ) 
     elif query.data == "check":
         buttons = [[
             InlineKeyboardButton('PLAN 1', callback_data='plan1'), 
