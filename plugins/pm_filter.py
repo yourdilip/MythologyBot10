@@ -1618,7 +1618,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "kushal":
         buttons = [[
-            InlineKeyboardButton('CHECK PLANS', callback_data='check')
+            InlineKeyboardButton('CHECK PLANS', callback_data='check'), 
+        ],[
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391"), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1645,6 +1647,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('PLAN 1', callback_data='plan1'), 
             InlineKeyboardButton('PLAN 2', callback_data='plan2'), 
             InlineKeyboardButton('PLAN 3', callback_data='plan3') 
+        ],[
+            InlineKeyboardButton('<————«« Back »»————>', callback_data='check'), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1670,6 +1674,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
             InlineKeyboardButton('CHECK PLANS', callback_data='check')
+        ],[
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1694,7 +1700,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "plan2":
         buttons = [[
             InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('CHECK PLANS', callback_data='check')
+            InlineKeyboardButton('CHECK PLANS', callback_data='check'
+        ],[  
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391")                   
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1720,6 +1728,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
             InlineKeyboardButton('CHECK PLANS', callback_data='check')
+        ],[
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
