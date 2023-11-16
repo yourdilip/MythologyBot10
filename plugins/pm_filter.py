@@ -1624,13 +1624,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="● ◌ ◌"
+            text="■ □ □"
         )
         await query.message.edit_text(
-            text="● ● ◌"
+            text="■ ■ □"
         )
         await query.message.edit_text(
-            text="● ● ●"
+            text="■ ■ ■"
         )
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1648,17 +1648,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('PLAN 2', callback_data='plan2'), 
             InlineKeyboardButton('PLAN 3', callback_data='plan3') 
         ],[
-            InlineKeyboardButton('<————«« Back »»————>', callback_data='check'), 
+            InlineKeyboardButton('<————«« Back »»————>', callback_data='kushal'), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="● ◌ ◌"
+            text="■ □ □"
         )
         await query.message.edit_text(
-            text="● ● ◌"
+            text="■ ■ □"
         )
         await query.message.edit_text(
-            text="● ● ●"
+            text="■ ■ ■"
         )
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1673,19 +1673,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "plan1":
         buttons = [[
             InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('CHECK PLANS', callback_data='check')
-        ],[
             InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
+        ],[
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="● ◌ ◌"
+            text="■ □ □"
         )
         await query.message.edit_text(
-            text="● ● ◌"
+            text="■ ■ □"
         )
         await query.message.edit_text(
-            text="● ● ●"
+            text="■ ■ ■"
         )
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1700,19 +1700,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "plan2":
         buttons = [[
             InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('CHECK PLANS', callback_data='check') 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
         ],[  
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391")                   
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')                   
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="● ◌ ◌"
+            text="■ □ □"
         )
         await query.message.edit_text(
-            text="● ● ◌"
+            text="■ ■ □"
         )
         await query.message.edit_text(
-            text="● ● ●"
+            text="■ ■ ■"
         )
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1727,19 +1727,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "plan3":
         buttons = [[
             InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('CHECK PLANS', callback_data='check')
-        ],[
             InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
+        ],[
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="● ◌ ◌"
+            text="■ □ □"
         )
         await query.message.edit_text(
-            text="● ● ◌"
+            text="■ ■ □"
         )
         await query.message.edit_text(
-            text="● ● ●"
+            text="■ ■ ■"
         )
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1761,6 +1761,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
