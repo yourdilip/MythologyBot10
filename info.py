@@ -13,15 +13,15 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '7553555'))
+API_HASH = environ.get('API_HASH', 'a80f4ae31a5c9ff669da4d7f19d6f15e')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5556803093:AAGrXEJxjANL-X7F46lPhqW-QKUOdf3znBw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 99999))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/334f55c6c77100e6b85e3.mp4')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/e3b31402c01d6ad4404a9.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/41a08d01363c18ca909f1.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0afd4bb.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -43,9 +43,10 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Krishn100:Krishn100@cluster0.billeg5.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Krishna 100")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
