@@ -1,18 +1,27 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ 👋 {}</b>
+    START_TXT = """<b>Hey {} 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot. Here You Can Find Many Mythology Serials ➺ /availableserial.\n\n Just Check Help Button Below.</b>"""
 
 <b>Mʏ Nᴀᴍᴇ Is <a href="https://t.me/{}">{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Sᴇʀɪᴇs, Aɴɪᴍᴀᴛɪᴏɴ, Cᴀʀᴛᴏᴏɴ, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ & Mᴀɴʏ Mᴏʀᴇ ☺ Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ EɴJᴏʏ 😍</b>"""
 
-    HELP_TXT = """<b>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+    HELP_TXT = """"""𝐇𝐞𝐥𝐩 ❓
+• Buy /plans And Enjoy all /availableserial
+
+• 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ?
+--> <a href='https://t.me/MythoSerial/157'>Watch this Video.</a>
+
+• 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ?
+--> <a href='https://t.me/MythoSerial'>Join Now.</a>
+
+• You can also request what you want In Group.
+
+𝐓𝐡𝐚𝐧𝐤𝐬 𝐔𝐬𝐢𝐧𝐠 𝐌𝐞  ❤️
+""""""
  
-    ABOUT_TXT = """
-<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/{}">ʙᴏᴛ</a>
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/KUSHALHK">𝐊𝐔𝐒𝐇𝐀𝐋</a>
-‣ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
-‣ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
-‣ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://render.com/">Render</a>
-‣ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ.𝟹.𝟶 [ꜱᴛᴀʙʟᴇ]</b>"""
+    ABOUT_TXT = """--> My Name : {}
+   
+• <b>Devoloped By</b> : @MythoSerial ❤️
+This bot can Provide You Many Mythology show on your request.\n\nThank You 😇.
+"""
                   
     DISCLAIMER_TXT =  """<b>ᴛʜɪꜱ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
