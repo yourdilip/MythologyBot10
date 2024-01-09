@@ -5,7 +5,7 @@
    𝕽α∂нαкяιѕнη
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+𝕽α∂нαкяιѕнη-Bot;A Simple Powerful Bot !!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+𝕽α∂нαкяιѕнη-Bot;A+Simple+Powerful+Bot+!!)
 </p>
 <b>All this codes are created by our developers 
 
