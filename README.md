@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/8e0fca27184354f479593.jpg" alt="TG_BOTZ Logo">
+  <img src="https://graph.org/file/4cc41fb707869d2225c47.jpg" alt="Radhekrishnbot">
 </p>
 <h1 align="center">
   TG_UPDATES1
