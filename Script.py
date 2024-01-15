@@ -1,8 +1,6 @@
 class script(object):
     START_TXT = """<b>Hey {} 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot. Here You Can Find Many Mythology Serials ➺ /availableserial.\n\n Just Check Help Button Below.</b>
 
-<b>Mʏ Nᴀᴍᴇ Is <a href="https://t.me/{}">{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Sᴇʀɪᴇs, Aɴɪᴍᴀᴛɪᴏɴ, Cᴀʀᴛᴏᴏɴ, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ & Mᴀɴʏ Mᴏʀᴇ ☺ Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ EɴJᴏʏ 😍</b>"""
-
     HELP_TXT = """𝐇𝐞𝐥𝐩 ❓
 • Buy /plans And Enjoy all /availableserial
 
