@@ -1,9 +1,9 @@
 class script(object):
-    START_TXT = """<b>Hey {} 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot. Here You Can Find Many Mythology Serials ➺ /availableserial.\n\n Just Check Help Button Below.</b>"""
+    START_TXT = """<b>Hey {} 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot. Here You Can Find Many Mythology Serials ➺ /availableserial.\n\n Just Check Help Button Below.</b>
 
 <b>Mʏ Nᴀᴍᴇ Is <a href="https://t.me/{}">{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Sᴇʀɪᴇs, Aɴɪᴍᴀᴛɪᴏɴ, Cᴀʀᴛᴏᴏɴ, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ & Mᴀɴʏ Mᴏʀᴇ ☺ Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ EɴJᴏʏ 😍</b>"""
 
-    HELP_TXT = """"""𝐇𝐞𝐥𝐩 ❓
+    HELP_TXT = """𝐇𝐞𝐥𝐩 ❓
 • Buy /plans And Enjoy all /availableserial
 
 • 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ?
@@ -15,7 +15,7 @@ class script(object):
 • You can also request what you want In Group.
 
 𝐓𝐡𝐚𝐧𝐤𝐬 𝐔𝐬𝐢𝐧𝐠 𝐌𝐞  ❤️
-""""""
+"""
  
     ABOUT_TXT = """--> My Name : {}
    
