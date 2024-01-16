@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hey {} 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot. Here You Can Find Many Mythology Serials ➺ /availableserial.\n\n Just Check Help Button Below.</b>
+    START_TXT = """<b>Hey {} 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot. Here You Can Find Many Mythology Serials ➺ /availableserial.\n\n Just Check Help Button Below.</b>"""
 
     HELP_TXT = """𝐇𝐞𝐥𝐩 ❓
 • Buy /plans And Enjoy all /availableserial
@@ -278,7 +278,8 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>🥲"""
 
-    CAPTION = """ 
+   """
+    CAPTION = 
 🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>
 📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
 
