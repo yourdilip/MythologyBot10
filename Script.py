@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """<b>Hey {} 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot. Here You Can Find Many Mythology Serials ➺ /availableserial.\n\n Just Check Help Button Below.</b>"""
+    START_TXT = """<b>Hey {}</b> 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot.\nHere You Can Find Many Mythology Serials ➺ /availableserial.\n\nJust Check Help Button Below."""
 
-    HELP_TXT = """𝐇𝐞𝐥𝐩 ❓
+    HEP_TXT = """𝐇𝐞𝐥𝐩 ❓
 • Buy /plans And Enjoy all /availableserial
 
 • 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ?
@@ -119,25 +119,13 @@ Hᴇʟᴘ : <b>Sᴇᴛᴛɪɴɢꜱ</b>
 𝟹. Usᴇ /settings ᴏɴ ʙᴏᴛ's ᴘᴍ ᴀɴᴅ ᴛᴜʀɴ ᴏɴ AᴜᴛᴏFɪʟᴛᴇʀ ᴏɴ ᴛʜᴇ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ."""
 
     
-    RULE_TXT = """♦ 𝗚𝗿𝗼𝘂𝗽 𝗥𝘂𝗹𝗲𝘀 ♦
+    HELP_TXT = """♦ Help♦
 
-◈ <b>Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ:</b>
-• ᴀᴠᴀᴛᴀʀ 𝟸𝟶𝟶𝟿 ✅
-• ᴀᴠᴀᴛᴀʀ ʜɪɴᴅɪ ✅
-• ᴀᴠᴀᴛᴀʀ ᴍᴏᴠɪᴇ ❌
-• ᴀᴠᴀᴛᴀʀ ʜɪɴᴅɪ ᴅᴜʙʙᴇᴅ..❌
+◈ <b>Sᴇᴀʀᴄʜ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ:</b>
+• RadhaKrishn S01E01 ✅
+• Mahabharat S01E04 ✅
 
-◈ <b>Sᴇᴀʀᴄʜ Wᴇʙ Sᴇʀɪᴇs Iɴ ᴛʜɪs Fᴏʀᴍᴀᴛ:</b>
-• ᴠɪᴋɪɴɢs S𝟶𝟷 ✅
-• ᴠɪᴋɪɴɢs S𝟶𝟷E𝟶𝟷 ✅
-• ᴠɪᴋɪɴɢs S𝟶𝟷 ʜɪɴᴅɪ ✅
-• ᴠɪᴋɪɴɢs S𝟶𝟷 ʜɪɴᴅɪ ᴅᴜʙʙ... ❌
-• ᴠɪᴋɪɴɢs sᴇᴀsᴏɴ 𝟷 ❌
-• ᴠɪᴋɪɴɢs ᴡᴇʙ sᴇʀɪᴇs ❌
-
-<b>➙ ᴅᴏɴ'ᴛ ᴅᴏ ᴀɴʏ ꜱᴇʟꜰ ᴘʀᴏᴍᴏᴛɪᴏɴ. 
-➙ ᴅᴏɴ'ᴛ ꜱᴇɴᴅ ᴀɴʏ ᴋɪɴᴅ ᴏꜰ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ, ᴅᴏᴄᴜᴍᴇɴᴛꜱ, ᴜʀʟ, ᴇᴛᴄ...
-➙ ᴅᴏɴ'ᴛ ʀᴇǫᴜᴇꜱᴛ ᴀɴʏ ᴛʜɪɴɢꜱ ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴍᴏᴠɪᴇꜱ, ꜱᴇʀɪᴇꜱ, ᴀɴɪᴍᴀᴛɪᴏɴ, ᴄᴀʀᴛᴏᴏɴ, ᴀɴɪᴍᴇ, ᴋ-ᴅʀᴀᴍᴀ ᴍᴀɴʏ ᴍᴏʀᴇ.</b>
+<b>➙ Don't Do Spam in Bot.
 
 🔰 <b>Nᴏᴛᴇ :</b> ᴀʟʟ ᴍᴇꜱꜱᴀɢᴇꜱ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ."""
 
