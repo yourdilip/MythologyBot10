@@ -55,15 +55,6 @@ async def start(client, message):
                #     InlineKeyboardButton('💳 𝐆𝐄𝐓 𝐀𝐃𝐙 𝐅𝐑𝐄𝐄 𝐅𝐈𝐋𝐄 💳', callback_data='kushal') 
               #    ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_text("👀")
-        await asyncio.sleep(1)
-        await m.delete()
-        m=await message.reply_text("⚡")
-        await asyncio.sleep(1)
-        await m.delete()
-        m=await message.reply_sticker("CAACAgIAAxkBAAEBX4RlH6KWlmN63-NAKmqJrDfX_qB1DgACVAADQbVWDGq3-McIjQH6HgQ") 
-        await asyncio.sleep(1)
-        await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -93,7 +84,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://telegra.ph/file/20b4aaaddb8aba646e53c.jpg",
+            photo=random.choice(PICS),
             caption="You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
@@ -250,6 +241,7 @@ async def start(client, message):
                 text="<b>Invalid link or Expired link !</b>",
                 protect_content=True
             )
+            
     if data.startswith("sendfiles"):
         chat_id = int("-" + file_id.split("-")[1])
         userid = message.from_user.id if message.from_user else None
@@ -266,7 +258,7 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('📂  Download Now 📂', url=g)
                     ], [
-                        InlineKeyboardButton('💠  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  💠', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('💠  How to Download  💠', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
@@ -285,9 +277,9 @@ async def start(client, message):
         k = await client.send_message(chat_id=user,text=f"<b>📕 Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗 Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂 Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📂  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📂', url=g)
+                        InlineKeyboardButton('📂  Download Now 📂', url=g)
                     ], [
-                        InlineKeyboardButton('💠  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  💠', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('💠  How to Download  💠', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
@@ -362,9 +354,9 @@ async def start(client, message):
             k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📂  ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ  📂', url=g)
+                            InlineKeyboardButton('📂  Download Mow 📂', url=g)
                         ], [
-                            InlineKeyboardButton('💠  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  💠', url=await get_tutorial(chat_id))
+                            InlineKeyboardButton('💠  How to Download  💠', url=await get_tutorial(chat_id))
                         ]
                     ]
                 )
