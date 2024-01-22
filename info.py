@@ -21,10 +21,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5556803093:AAGrXEJxjANL-X7F46lPhqW-QKUOdf3
 CACHE_TIME = int(environ.get('CACHE_TIME', 99999))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/e3b31402c01d6ad4404a9.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e3b31402c01d6ad4404a9.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e3b31402c01d6ad4404a9.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/e3b31402c01d6ad4404a9.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/b43d3079652654fd8692c.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b43d3079652654fd8692c.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/b43d3079652654fd8692c.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/b43d3079652654fd8692c.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -59,9 +59,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TG_SUPPORT_GROUP')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TG_LINKS_CHANNEL')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TG_UPDATES1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+QENrEno72xQwOTg1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Radhakriishn')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MythoSerial/157')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ɴ33ᴠᴀʀᴘ')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
