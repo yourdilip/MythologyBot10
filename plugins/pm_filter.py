@@ -1571,7 +1571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• Connection •️', callback_data='coct')
         ], [
             InlineKeyboardButton('Back', callback_data='start'),
-            InlineKeyboardButton('Next', callback_data='nxtx')
+            InlineKeyboardButton('Next', callback_data='nxthelp')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1586,7 +1586,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data == "nxtx":
+    elif query.data == "nxthelp":
         buttons = [[
             InlineKeyboardButton('• Extra Mods •', callback_data='extra'),
             InlineKeyboardButton('🆎 Fonts 🆎', callback_data='font')
@@ -2404,7 +2404,7 @@ async def advantage_spell_chok(client, msg):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("Help Video", url="https://t.me/MythoSerial/311")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2420,7 +2420,7 @@ async def advantage_spell_chok(client, msg):
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("Help Video", url="https://t.me/MythoSerial/311")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
