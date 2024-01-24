@@ -1571,7 +1571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• Connection •️', callback_data='coct')
         ], [
             InlineKeyboardButton('Back', callback_data='start'),
-            InlineKeyboardButton('Next', callback_data='nxt')
+            InlineKeyboardButton('Next', callback_data='nxtx')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1586,7 +1586,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data == "nxt":
+    elif query.data == "nxtx":
         buttons = [[
             InlineKeyboardButton('• Extra Mods •', callback_data='extra'),
             InlineKeyboardButton('🆎 Fonts 🆎', callback_data='font')
@@ -1594,7 +1594,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• Sticker •', callback_data='sticker'),
             InlineKeyboardButton('• Settings •', callback_data='settings')
         ], [
-            , 
+        
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         
