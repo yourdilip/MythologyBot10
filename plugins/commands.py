@@ -1080,4 +1080,28 @@ async def stop_button(bot, message):
     msg = await bot.send_message(text="**🔄 𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙴𝚂 𝚂𝚃𝙾𝙿𝙴𝙳. 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...**", chat_id=message.chat.id)       
     await asyncio.sleep(3)
     await msg.edit("**✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳. 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴**")
-    os.execl(sys.executable, sys.executable, *sys.argv)
+    os.execl(sys.executable, sys.executable, *sys.argv)@Client.on_message(filters.private & filters.command(["font"]))
+
+@Client.on_message(filters.private & filters.command(["serials"]))
+await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
+     buttons = [[
+        InlineKeyboardButton('1988', callback_data='help'),
+        InlineKeyboardButton('1989', callback_data='help'),
+        InlineKeyboardButton('1990', callback_data='help'),
+        InlineKeyboardButton('1991', callback_data='help'), 
+        ],[
+        InlineKeyboardButton('1992', callback_data='help'),
+        InlineKeyboardButton('1993', callback_data='help'),
+        InlineKeyboardButton('1994', callback_data='help'),
+        InlineKeyboardButton('1995', callback_data='help'),
+        ],[ 
+        InlineKeyboardButton('1996', callback_data='help'),
+        InlineKeyboardButton('1997', callback_data='help'),
+        InlineKeyboardButton('1998', callback_data='help'),
+        InlineKeyboardButton('1999', callback_data='help'),
+        ],[ 
+        InlineKeyboardButton('1992', callback_data='help'),
+        InlineKeyboardButton('1993', callback_data='help'),
+        InlineKeyboardButton('1994', callback_data='help'),
+        InlineKeyboardButton('1995', callback_data='help'),
+    ]] 
